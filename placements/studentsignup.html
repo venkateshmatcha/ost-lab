@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registeration Form </title>
+<style>
+
+center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+p.one
+{
+  border-style: solid;
+  border-width: 5px;
+}
+
+</style>
+
+</head>
+
+</body>
+
+<h2> STUDENT REGISTRATION FORM </h2>
+<form method="POST" action="phpstureg.php">
+
+<div class="center">
+
+<p class="one">
+</br>
+
+
+ </br>
+ 
+ </br>
+
+
+<tr>
+<td>Sid       :     </td>
+<td><input type= "number"style="background-color: lightpink; height: 30px; width: 200px" placeholder="Sid" 
+
+name="sid"/>
+(Numbers "0-9")
+</td>
+</tr>
+</br>
+</br>
+
+
+<tr><td> font color="black">Name :</font></tr><td> <input type="text" style="background-color: lightpink; height: 30px; width: 200px" placeholder="Sname" 
+
+name="sname" required/>
+</td>
+</tr>
+</br>
+</br>
+
+<tr>
+<td>Phone : </td>
+<td><input type="number" placeholder="Phone" name="phone"/>
+(Numbers "0-9")
+</td>
+</tr>
+</br>
+</br>
+
+
+DOB: <input type="date" name="bday" min = "1995-01-01" max = "2005-12-12">
+</br>
+</br>
+
+
+<tr>
+<td>Email : </td>
+<td><input type="email" style="background-color: yellow; height: 20px; width: 200px" placeholder="@gmail.com" 
+
+name="mail" required/>
+</td>
+</tr>
+</br>
+</br>
+
+<tr>
+<td>Password : </td>
+<td><input type="password" placeholder="******" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+
+title="must contain at least one number and one uppercase and one lowercase letter,and at least 8 or more 
+
+characters"  required/>
+</td>
+</tr>
+</br>
+</br>
+
+
+
+<tr>
+<td>Graduate : </td>
+<td><input type="number" placeholder="Passingyear" name="passing" min = "2016" />
+
+</td>
+</tr>
+</br>
+</br>
+
+<tr>
+<td>Graduate Perc: </td>
+<td><input type="number" placeholder="Graduate %" name="gradcgpa" min="40" max="100"/>
+
+</td>
+</tr>
+</br>
+</br>
+
+<tr>
+<td>Inter % : </td>
+<td><input type="number" placeholder="Inter %" name="interper" min="40" max="100"/>
+
+</td>
+</tr>
+</br>
+</br>
+
+
+<tr>
+<td> Cgpa : </td>
+<td><input type="number" placeholder="10 th %" name="cgpa" min="40" max="99"/>
+
+</td>
+</tr>
+</br>
+</br>
+
+
+
+
+<input type="submit" value = "submit">
+
+
+</td>
+
+
+
+<td>
+<button type="reset"> reset </button>
+
+
+</td>
+</tr>
+</br>
+</br>
+
+</form>
+
+  
+ 
+  <a href="studentact.html">Previous Page</a>
+  
+
+
+
+</p>
+</div>
+
+</body>
+</html>
